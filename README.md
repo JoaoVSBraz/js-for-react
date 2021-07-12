@@ -1,5 +1,12 @@
 # <p align="center">MATCHING GAME</p>
 
+<div align="center">
+
+[![Twitter Badge](https://img.shields.io/badge/-ViteJs-ffffff?style=flat-square)](https://https://vitejs.dev)
+[![](https://img.shields.io/badge/-Gitmoji-ffffff?style=flat-square)](https://gitmoji.dev/)
+
+</div>
+
 <img src=".github/matchingame.png" width="100%">
 
 ---
@@ -22,5 +29,4 @@ O projeto está sendo desenvolvido durante o evento Js for React disponibilizado
 - CSS
 - JavaScript
 - ViteJs
-- Github Hooks
 - Gitmoji
