@@ -1,12 +1,10 @@
 import "./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
+import BoardGame from "./src/objects/BoardGame";
 
-import CardGame from "./src/components/CardGame";
-// Index.js não é especificado por que o js por padrão o procura.
 
 const $root = document.querySelector("#root");
+const $htmlBoardGame = BoardGame(6);
 
-const $htmlCardGame = CardGame();
-
-$root.insertAdjacentHTML("beforeend", $htmlCardGame);
+$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
