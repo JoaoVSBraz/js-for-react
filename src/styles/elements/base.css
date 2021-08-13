@@ -1,9 +1,4 @@
-html{
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
-body {
+html, body {
     background-color: var(--pomb-color);
     max-width: 320px;
     margin: 0 auto;
@@ -11,8 +6,10 @@ body {
     font-family: 'Press Start 2P', sans-serif;
 }
 
-#root{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+body{
+    background-color: var(--color-pomb-and-power);
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Press Start 2P", cursive;
 }
